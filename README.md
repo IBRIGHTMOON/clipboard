@@ -22,7 +22,7 @@
 
 ## Homebrew 安装
 
-发布首个 GitHub Release 后，Apple Silicon Mac 可通过：
+Apple Silicon Mac 可通过 Homebrew 安装：
 
 ```sh
 brew tap IBRIGHTMOON/clipboard
