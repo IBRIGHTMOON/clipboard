@@ -20,6 +20,17 @@
   xcode-select --install
   ```
 
+## Homebrew 安装
+
+发布首个 GitHub Release 后，Apple Silicon Mac 可通过：
+
+```sh
+brew tap IBRIGHTMOON/clipboard
+brew install --cask IBRIGHTMOON/clipboard/clipboard-history
+```
+
+安装后从「应用程序」启动 **Clipboard History**，并在「系统设置 → 隐私与安全性 → 辅助功能」授予它权限。当前 Cask 仅提供 Apple Silicon（arm64）构建。
+
 ## 在当前电脑运行
 
 在项目目录中运行：
